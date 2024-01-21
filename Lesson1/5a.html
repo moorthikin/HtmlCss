@@ -1,7 +1,11 @@
 <style>
-  .a {
-    font-size: 30px;
-    color: blue;
+  .link1 {
+    font-size: 20px;
+
+  }
+
+  .link1:hover {
+    color: orange;
   }
 
   .paragraph1 {
@@ -25,6 +29,13 @@
     width: 100px;
     border: none;
     border-radius: 18px;
+    transition: background-color 0.15s;
+  }
+
+
+
+  .cart-button:active {
+    background-color: rgb(216, 165, 11);
 
   }
 
@@ -35,10 +46,15 @@
     width: 100px;
     border: none;
     border-radius: 18px;
+    transition: background-color 0.15s;
+  }
+
+  .buy-button:active {
+    background-color: yellow;
   }
 </style>
 
-<a href="https://www.amazon.com/" target="_blank">
+<a href="https://www.amazon.com/" target="_blank" class="link1">
   Back to Amazon
 </a>
 <p class="paragraph1">
